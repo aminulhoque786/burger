@@ -2,14 +2,15 @@ import React from "react";
 import Container from "./Container";
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-
 const Form = () => {
   AOS.init(); // Initialize AOS
 
   return (
     <div>
       <Container>
-        <h2 className="text-yellow-400 font-bold text-[40px]">Connect with us</h2>
+      <h2 className="text-yellow-400 font-bold text-[40px] slide-down">
+            Connect with us
+        </h2>
         <div className="w-3/5" data-aos="fade-down" data-aos-duration="1000"> {/* AOS attributes added */}
           <form className="max-w-md mx-auto">
             <div className="relative z-0 w-full mb-5 group">

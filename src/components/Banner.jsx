@@ -51,11 +51,11 @@ const Banner = () => {
   return (
     <div className="">
       <Container>
-        <div className="flex">
-          <div className="w-4/5 pt-5">
+        <div className="flex pt-4">
+          <div className="w-4/5 pt-10">
             <h2 className="text-yellow-300 font-bold text-[50px]">Food Tastes</h2>
             <h3 className="text-yellow-300 font-bold text-[40px]">
-              The Tasty Food of <br /> Your Choice
+              The Tasty Food of  Your Choice
             </h3>
            <div className="pt-6">
            <div className="max-w-md mx-auto" ref={formRef}>
@@ -184,7 +184,7 @@ const Banner = () => {
           </div>
 
           <div
-            className="w-3/5 drop-shadow-xl"
+            className="w-4/5 drop-shadow-xl"
             data-aos="fade-down"
             data-aos-easing="ease-out-back"
             data-aos-duration="2000"
@@ -194,22 +194,7 @@ const Banner = () => {
         </div>
 
         {/* Add bouncing SVG */}
-        <div className="flex justify-center font-bold  ">
-          <svg
-            className="animate-bounce w-16 h-28 font-bold  text-yellow-300"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 3v12m0 0l3-3m-3 3l-3-3"
-            />
-          </svg>
-        </div>
+      
       </Container>
     </div>
   );
